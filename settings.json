@@ -1,0 +1,207 @@
+{
+	"yaml.schemas": {
+		"file:///c%3A/Users/Usuario/.vscode/extensions/atlassian.atlascode-3.6.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"redhat.telemetry.enabled": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"window.zoomLevel": 1,
+	"workbench.colorTheme": "Electron vue darker",
+	"editor.unusualLineTerminators": "auto",
+	"files.autoSave": "afterDelay",
+	"eslint.validate": ["javascript", "typescript", "vue", "react"],
+	"files.associations": {
+		"*.vue": "vue",
+		"*.js": "javascript",
+		"*.jsx": "javascriptreact",
+		"*.ts": "typescript",
+		"*.tsx": "typescriptreact",
+		"*.html": "html",
+		"*.css": "css",
+		"^*.json": "json"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"powermode.enabled": true,
+	"http.systemCertificates": false,
+	"workbench.colorCustomizations": {},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.wordWrap": "on",
+	"console-ninja.outputMode": "In View",
+	"html-css-class-completion.JavaScriptLanguages": [
+		"javascript",
+		"javascriptreact",
+		"typescriptreact",
+		"typescript",
+		"vue",
+		"html",
+		"htmlreact",
+		"css",
+		"scss",
+		"less",
+		"sass",
+		"stylus"
+	],
+	"terminal.integrated.env.windows": {},
+	"gitlens.codeLens.dateFormat": "",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"scss.completion.completePropertyWithSemicolon": true,
+	"explorer.confirmDelete": false,
+	"editor.cursorBlinking": "expand",
+	"editor.linkedEditing": true,
+	"editor.guides.bracketPairs": true,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"explorer.confirmDragAndDrop": false,
+	"workbench.tree.enableStickyScroll": true,
+	"editor.stickyScroll.enabled": true,
+	"atlascode.jira.lastCreateSiteAndProject": {
+		"siteId": "",
+		"projectKey": ""
+	},
+	"accessibility.signals.terminalBell": {
+		"sound": "on"
+	},
+	"terminal.integrated.enableVisualBell": true,
+	"i18n-ally.displayLanguage": "es",
+	"console-ninja.featureSet": "Community",
+	"git.suggestSmartCommit": false,
+	"prisma.showPrismaDataPlatformNotification": false,
+
+	"workbench.editor.customLabels.patterns": {
+		"**/pages/**": "${filename}.${extname} - Pages 📚",
+		"**/components/**": "${filename}.${extname} - Components 📦",
+		"**/routes/**": "${filename}.${extname} - Routes 🛣️",
+		"**/router/**": "${filename}.${extname} - Router 🛣️",
+		"**/views/**": "${filename}.${extname} - Views 👁️",
+		"**/config/**": "${filename}.${extname} - Configuration ⚙️",
+		"**/utils/**": "${filename}.${extname} - Utils 🛠️",
+		"**/controller/**": "${filename}.${extname} - Controllers 🛜",
+		"**/models/**": "${filename}.${extname} - Models 🧩",
+		"**/database/**": "${filename}.${extname} - Database 🗄️",
+		"**/docs/**": "${filename}.${extname} - Documentation 📖"
+	},
+	"workbench.editorAssociations": {
+		"{git,gitlens}:/**/*.{md,csv,svg}": "default"
+	},
+	"json.schemas": [
+		{
+			"fileMatch": ["ci.yml"],
+			"url": "http://json.schemastore.org/github-workflow"
+		}
+	],
+	"css.validate": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"vscode-office.editorTheme": "Dracula",
+	"vscode-office.openOutline": true,
+	"terminal.explorerKind": "both",
+	"path-autocomplete.extensionOnImport": true,
+	"Path Autocomplete.refactorOnLocationChange": true,
+	"Path Autocomplete.refactorOnLocationChangeForAllFiles": true,
+	"path-autocomplete.pathMappings": {},
+	"git.confirmSync": false,
+	"terminal.external.windowsExec": "C:\\WINDOWS\\System32\\cmd.exe",
+	"terminal.external.osxExec": "Terminal.app",
+	"terminal.integrated.profiles.windows": {
+		"Windows Powershell": {
+			"source": "Windows.Terminal.PowershellCore",
+			"path": [
+				"${env:windir}\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+				"${env:windir}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+			],
+			"icon": "terminal-powershell"
+		},
+		"Símbolo del Sistema": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe"
+			],
+			"args": [],
+			"icon": "terminal-cmd"
+		},
+		"Git Bash": {
+			"source": "Git Bash"
+		},
+		"Warp": {
+			"path": "C:\\Users\\Usuario\\AppData\\Local\\Programs\\Warp\\warp.exe",
+			"args": []
+		}
+	},
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default",
+				"enableSsl": "Disabled"
+			},
+			"previewLimit": 1000,
+			"server": "localhost",
+			"port": 3306,
+			"driver": "MySQL",
+			"database": "bookandgo",
+			"username": "root",
+			"name": "BookandGo",
+			"askForPassword": true
+		}
+	],
+	"mssql.connectionGroups": [
+		{
+			"name": "ROOT",
+			"id": "8A8EC682-B168-45D0-A8C8-F811492609C8"
+		}
+	],
+	"mssql.connections": [],
+	"editor.defaultFormatter": "Wscats.vue",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"prettier.arrowParens": "avoid",
+	"prettier.bracketSameLine": false,
+	"prettier.bracketSpacing": true,
+	"prettier.configPath": "./.prettierrc",
+	"prettier.embeddedLanguageFormatting": 	"auto",
+	"prettier.endOfLine": "auto",
+	"prettier.htmlWhitespaceSensitivity": 	"ignore",
+	"prettier.jsxSingleQuote": true,
+	"prettier.printWidth": 80,
+	"prettier.proseWrap": "always",
+	"prettier.quoteProps": "as-needed",
+	"prettier.requireConfig": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 3,
+	"prettier.trailingComma": "es5",
+	"prettier.useEditorConfig": false,
+	"prettier.useTabs": true,
+	"prettier.vueIndentScriptAndStyle": true,
+	"editor.tabSize": 3,
+	"editor.detectIndentation": false,
+	"html.format.indentInnerHtml": true,
+	"scss.lint.unknownAtRules": "ignore",
+	"editor.fontSize": 16,
+	"editor.lineHeight": 22,
+	"editor.fontFamily": "'Cascadia Mono PL',Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.indentSize": "tabSize",
+	"eslint.useFlatConfig": true,
+	"notebook.defaultFormatter": "esbenp.prettier-vscode",
+	"scssFormatter.printWidth": 80,
+	"eslint.format.enable": true,
+	"html.format.extraLiners": ""
+}
